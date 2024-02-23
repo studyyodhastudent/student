@@ -1,0 +1,20 @@
+.myfont
+{
+    font-size: 30px;
+    background-color: red;
+    color: aqua;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-align: center;
+}
+.box1
+{
+    border: 1px solid black;
+    background-color: aquamarine;
+    padding: 5px;
+    width: 500px;
+    height: 300px;
+    /* overflow: hidden; */
+    overflow:scroll;
+}
