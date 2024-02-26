@@ -3,7 +3,22 @@
 {
     border: 2px;
     background-color: cadetblue;
+    padding: 5px;
     width: 500px;
-    height: 500px;
+    height: 300px;
+    /* overflow: hidden; */
     overflow: scroll;
+    position: absolute;
+}
+.box3
+{
+    border: 1px solid black;
+    background-image:url('img/2.png') ;
+    padding: 5px;
+    width: 500px;
+    height: 300px;
+    /* overflow: hidden; */
+    overflow: scroll;
+    position: absolute;
+    left: 520px;
 }
