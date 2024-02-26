@@ -17,4 +17,16 @@
     height: 300px;
     /* overflow: hidden; */
     overflow:scroll;
+    position: absolute;
+}
+.box2
+{
+    border: 1px solid black;
+    background-image:url('img/2.png') ;
+    padding: 5px;
+    width: 800px;
+    height: 300px;
+    overflow: scroll;
+    position: absolute;
+    left: 501px;
 }
