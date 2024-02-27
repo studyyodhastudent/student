@@ -33,3 +33,17 @@
     position: absolute;
     left: 501px;
 }
+
+.btnClick
+{
+    background-color: aqua;
+    color:red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btnClick:hover
+{
+    background-color: red;
+    color: aqua;
+}
