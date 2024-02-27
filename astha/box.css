@@ -22,3 +22,16 @@
     position: absolute;
     left: 520px;
 }
+.btnclick
+{
+    background-color: rgb(175, 24, 24);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btnclick:hover
+{
+    background-color: aqua;
+    color: blue;
+}
