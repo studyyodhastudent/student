@@ -24,7 +24,7 @@
 }
 .btnclick
 {
-    background-color: rgb(175, 24, 24);
+    background-color: rgb(182, 174, 174);
     color: black;
     padding: 10px;
     border-radius: 20px;
@@ -32,6 +32,6 @@
 
 .btnclick:hover
 {
-    background-color: aqua;
-    color: blue;
+    background-color: rgb(214, 9, 9);
+    color: rgb(10, 10, 10);
 }
