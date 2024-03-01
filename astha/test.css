@@ -3,7 +3,7 @@
     border:1px;
     background-color: darkgoldenrod;
     color: rgb(8, 6, 6);
-    width: 1800px;
+    width: 100%;
     height: 60px;
 }
 .box11  
@@ -16,4 +16,36 @@
     position: absolute;
     nav-down: 61px;
     
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.divleft
+{
+    float: left;
+    line-height: 80px;
+    padding-left: 50px;
+
+}
+.divright
+{
+    float: right;
+    line-height: 80px;
+    padding-left: 30px;  
+}
+.divleft2
+{
+    float: left;
+    line-height: 80px;
+    padding-left: 50px;
+    font-size: 40px;
+
+}
+.divright2
+{
+    float: right;
+    line-height: 80px;
+    padding-left: 30px; 
+    font-size: 20px; 
 }
