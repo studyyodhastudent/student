@@ -1,3 +1,8 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .box10
 {
     border:1px;
@@ -6,46 +11,46 @@
     width: 100%;
     height: 60px;
 }
-.box11  
-{
-    border:1px;
-    background-color: rgb(22, 6, 94);
-    color: rgb(8, 6, 6);
-    width: 1800px;
-    height: 100px;
-    position: absolute;
-    nav-down: 61px;
-    
-}
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
+
 .divleft
 {
     float: left;
     line-height: 80px;
     padding-left: 50px;
+    /*padding-left: 30px;*/
 
 }
 .divright
 {
     float: right;
     line-height: 80px;
-    padding-left: 30px;  
+    padding-right: 50px;  
+}
+.box11  
+{
+    border:1px;
+    background-color: rgb(22, 6, 94);
+    color: rgb(8, 6, 6);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    nav-down: 61px;
+    
 }
 .divleft2
 {
     float: left;
     line-height: 80px;
     padding-left: 50px;
-    font-size: 40px;
+   font-size: 40px;
 
 }
 .divright2
 {
     float: right;
     line-height: 80px;
-    padding-left: 30px; 
-    font-size: 20px; 
+    padding-right: 50px; 
+    font-size: 20px;
+    
 }
