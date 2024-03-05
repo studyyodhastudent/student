@@ -1,8 +1,44 @@
+/* 5-mar */
+
+/* .flex-container {
+    display: flex;
+  } */
+
+  .flex-container {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+     /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+    /* align-items: baseline;  */
+    align-items: center; 
+  }
+
+  .flex-menu-container
+  {
+    display: flex;
+  }
+  .myspace
+  {
+    padding-right: 10px;
+  }
+
 /* 1-mar */
 *{
     margin: 0px;
     padding: 0px;
 }
+
+
+
+
+
 .main{
     width: 100%;
     height: 80px;
