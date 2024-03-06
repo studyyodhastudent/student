@@ -1,0 +1,19 @@
+.btnclick
+{
+    background-color: cyan;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btnclick:hover
+{
+    background-color: crimson;
+    color: black;
+}
+.box1
+{
+    background-color: lawngreen;
+    border: 1px;
+    height: 100px;
+    width: 100%;
+}
