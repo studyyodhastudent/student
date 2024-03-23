@@ -353,5 +353,207 @@
 
 </div>
 
+<div class="container mt-3">
+  <h2>dropdown</h2>
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Tablet</a></li>
+      <li><a class="dropdown-item" href="#">Smartphone</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container mt-3">
+  <h2>tooltip</h2>
+  <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Hi!">Hover over me!     </button>
+
+</div>
+
+<div class="container mt-3">
+  <h3>Tooltip Positioning</h3>
+  <p>The data-bs-placement attribute specifies the tooltip position.</p>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Hooray!">Top</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!">Bottom</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Hooray!">Left</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Right</a>
+</div>
+
+<script>
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+
+
+
+<div class="container mt-3">
+  <h3>Tooltip Positioning</h3>
+  <p>The data-bs-placement attribute specifies the tooltip position.</p>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Hooray!">Top</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!">Bottom</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Hooray!">Left</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Right</a>
+</div>
+
+<script>
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+
+
+
+<div class="container mt-5">
+  <h3>Popover Positioning</h3>
+  <p>Click on the links to see the popover in action:</p>
+  <a href="#" title="Header" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Content">Top</a>
+  <a href="#" title="Header" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Content">Bottom</a>
+  <a href="#" title="Header" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Content">Left</a>
+  <a href="#" title="Header" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Content">Right</a>
+</div>
+
+<script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+
+<div class="container mt-3">
+  <h3>Hoverable Popover</h3>
+  
+  <a href="#" title="Header" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Popover text">Hover over me</a>
+</div>
+
+<script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+
+<div class="container mt-3">
+<h2>toast</h2>
+<div class="toast show">
+  <div class="toast-header">
+    <strong class="me-auto">Toast heading</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+  </div>
+</div>
+<div class="toast-body">
+<p>some text inside the toast body</p>
+</div>
+</div>
+
+<div class="container mt-3">
+  <h2>Open toast</h2>
+  <p>click on a button to show the toast Messages</p>
+  <button type="button" class="btn btn-primary" id="toastbtn">open toast</button>
+  <div class="toast">
+      <div class="toast-header">
+      <strong class="me-auto">Toast heading</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+      </div>
+      <div class="toast-body">
+      <p>some text inside the toast body</p>
+      </div> 
+      </div>
+</div>
+<script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+  </script>
+  
+
+
+
+  <div class="container mt-3">
+    <h3>Toast Example</h3>
+    <p>In this example, we use a button to show the toast message.</p>
+  
+    <button type="button" class="btn btn-primary" id="toastbtn">Show Toast</button>
+    
+    <div class="toast">
+      <div class="toast-header">
+        <strong class="me-auto">Toast Header</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+      </div>
+      <div class="toast-body">
+        <p>Some text inside the toast body</p>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+  document.getElementById("toastbtn").onclick = function() {
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function(toastEl) {
+      return new bootstrap.Toast(toastEl)
+    })
+    toastList.forEach(toast => toast.show()) 
+  }
+  </script>
+
+
+
+
+<div class="offcanvas offcanvas-end" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3>Right Offcanvas</h3>
+  <p>The .offcanvas-end class positions the offcanvas to the right of the page.</p>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Toggle Right Offcanvas
+  </button>
+</div>
 </body>
 </html>
